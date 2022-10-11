@@ -1,0 +1,111 @@
+.contentBlock16TabWrapper {
+  display: flex;
+}
+
+.contentBlock16Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock16 {
+  padding: 43px 15px 0;
+}
+
+.contentBlock16__comparison {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 34px 0 34px;
+}
+
+.contentBlock16__header {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.contentBlock16__profit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0659f4;
+}
+
+.contentBlock16__tab {
+  width: 100%;
+}
+
+.contentBlock16__text {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 55px 0 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock16 {
+    padding: 62px 50px 0;
+  }
+
+  .contentBlock16__comparison {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contentBlock16__header {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .contentBlock16__profit {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .contentBlock16__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 71px 0 50px;
+  }
+
+  .contentBlock16__text p {
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock16TabWrapper {
+    width: calc(100% - 695px);
+    max-width: 900px;
+    margin-right: 31px;
+  }
+
+  .contentBlock16 {
+    display: flex;
+    gap: 23px;
+    justify-content: space-between;
+  }
+
+  .contentBlock16__comparison {
+    margin: 19px 0 35px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .contentBlock16__header {
+    font-size: 32px;
+    line-height: 42px;
+    width: 639px;
+  }
+
+  .contentBlock16__profit {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .contentBlock16__text {
+    margin: 132px 0 20px;
+    width: 672px;
+  }
+}

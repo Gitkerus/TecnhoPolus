@@ -1,0 +1,113 @@
+.contentBlock12SaleorImg {
+  display: flex;
+  justify-content: center;
+}
+
+.contentBlock12Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock12 {
+  padding: 29px 15px 0;
+}
+
+.contentBlock12__header {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.contentBlock12__saleorImg {
+  min-width: 100vw;
+  overflow: visible;
+}
+
+.contentBlock12__tab {
+  margin: 45px 0;
+  width: 100%;
+}
+
+.contentBlock12__tab__large,
+.contentBlock12__tab__small {
+  max-width: 100%;
+}
+
+.contentBlock12__text {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 43px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock12 {
+    padding: 64px 50px 0;
+  }
+
+  .contentBlock12__header {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .contentBlock12__header-fixed {
+    width: 376px;
+  }
+
+  .contentBlock12__tab {
+    margin: 45px 0 64px;
+  }
+
+  .contentBlock12__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 80px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock12GroupWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contentBlock12SaleorImg {
+    width: calc(100% - 611px);
+    max-width: 900px;
+  }
+
+  .contentBlock12SaleorWrapper {
+    width: 611px;
+  }
+
+  .contentBlock12 {
+    padding: 72px 50px 0;
+  }
+
+  .contentBlock12__saleorImg {
+    min-width: 100%;
+  }
+
+  .contentBlock12__tab {
+    margin: 121px 0 72px;
+  }
+
+  .contentBlock12__text {
+    margin-top: 64px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .contentBlock12__header {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .contentBlock12__header-fixed {
+    width: 501px;
+  }
+
+  .contentBlock12__tab__large,
+  .contentBlock12__tab__small {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,182 @@
+.header {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.headerContactsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 28px;
+}
+
+.headerLinksWrapper {
+  display: none;
+}
+
+.headerMenuWrapper {
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.headerWrapperLeft {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 60px);
+}
+
+.headerWrapperRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1c51ef;
+  width: 60px;
+}
+
+.header__btnBurger {
+  display: flex;
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  height: 18px;
+  width: 21px;
+}
+
+.header__btnCall {
+  display: flex;
+  padding: 0;
+  height: 20px;
+  width: 24px;
+  height: auto;
+  width: auto;
+  border: none;
+  background-color: inherit;
+}
+
+.header__btnCall__orderCall {
+  display: none;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b4b4b4;
+  margin-bottom: 2px;
+}
+
+.header__name {
+  text-decoration: none;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin: 0 5px 2px 11px;
+}
+
+.header__phone {
+  height: 32px;
+  width: 32px;
+}
+
+.header__phoneNumber {
+  display: none;
+}
+
+.header__telegram {
+  height: 29px;
+  width: 29px;
+}
+
+.header__vertLine {
+  width: 1px;
+  height: 24px;
+  background: #3d3d3d;
+}
+
+.header__whatsapp {
+  height: 31px;
+  width: 31px;
+  margin: 0 10px 0 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .headerWrapperRight {
+    width: 280px;
+  }
+
+  .header__btnArrow {
+    width: 148px;
+    height: 24px;
+  }
+
+  .header__btnCall__arrow {
+    display: none;
+  }
+
+  .header__btnCall__orderCall {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .header__btnCall__orderCall__link {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__phoneNumber {
+    display: block;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  .header__whatsapp {
+    margin: 0 12px 0 20px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header__btnBurger {
+    display: none;
+  }
+
+  .header__name {
+    margin-left: 40px;
+    margin-right: 51px;
+  }
+
+  .header__vertLine {
+    display: none;
+  }
+
+  .headerLinksWrapper {
+    display: flex;
+    gap: 35px;
+  }
+}

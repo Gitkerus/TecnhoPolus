@@ -1,0 +1,90 @@
+.contentBlock9Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock9 {
+  padding: 0 25px 33px;
+  background: #f1f4fb;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contentBlock9ImgWrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contentBlock9__img {
+  height: 253px;
+  width: 291px;
+}
+
+.contentBlock9__signBtn {
+  border: none;
+  text-align: left;
+  width: 315px;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  background: #0f62fe;
+}
+
+.contentBlock9__text {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock9ImgWrapper {
+    justify-content: flex-start;
+    height: auto;
+    margin-right: 120px;
+  }
+
+  .contentBlock9 {
+    padding: 0 122px 97px 50px;
+    gap: 7px;
+  }
+
+  .contentBlock9__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contentBlock9__text {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock9ImgWrapper {
+    order: 2;
+    margin: 0;
+    width: calc(100% - 692px);
+    max-width: 900px;
+  }
+
+  .contentBlock9 {
+    padding: 42px 69px 42px 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contentBlock9__text {
+    margin-top: 22px;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 76px;
+    width: 583px;
+  }
+}

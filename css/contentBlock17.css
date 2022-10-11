@@ -1,0 +1,77 @@
+.contentBlock17BoxWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contentBlock17Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock17 {
+  padding: 37px 15px 49px;
+}
+
+.contentBlock17__box {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 31px 25px 38px 22px;
+  background: #f3f4f8;
+}
+
+.contentBlock17__box__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 61px;
+  margin-bottom: 5px;
+  background: #ffffff;
+}
+
+.contentBlock17__box__header {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.contentBlock17__box__text {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock17BoxWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 41px 20px;
+  }
+
+  .contentBlock17 {
+    padding: 9px 50px 52px;
+  }
+
+  .contentBlock17__box {
+    box-sizing: border-box;
+    width: calc(50% - 10px);
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock17BoxWrapper {
+    gap: 20px;
+  }
+
+  .contentBlock17 {
+    padding: 18px 50px 75px;
+  }
+
+  .contentBlock17__box {
+    width: calc(25% - 16px);
+  }
+}

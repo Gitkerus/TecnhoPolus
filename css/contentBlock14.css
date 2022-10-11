@@ -1,0 +1,84 @@
+.contentBlock14PhoneWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contentBlock14Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock14 {
+  padding: 52px 15px 0;
+  background: #f1f4fb;
+}
+
+.contentBlock14__header {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.contentBlock14__phoneImg {
+  width: 128%;
+  overflow: hidden;
+}
+
+.contentBlock14__text {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 56px 0 89px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock14 {
+    padding: 74px 50px 0;
+  }
+
+  .contentBlock14__header {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .contentBlock14__phoneImg {
+    width: calc(100% - 220px);
+    max-width: 600px;
+  }
+
+  .contentBlock14__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 95px 0 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock14PhoneWrapper {
+    width: calc(100% - 835px);
+  }
+
+  .contentBlock14TextWrapper {
+    width: 626px;
+  }
+
+  .contentBlock14 {
+    padding: 36px 50px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contentBlock14__header {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 36px;
+  }
+  .contentBlock14__phoneImg {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 20px;
+  }
+
+  .contentBlock14__text {
+    margin: 126px 0 50px;
+  }
+}

@@ -1,0 +1,460 @@
+.contentBlock10BoxWrapper {
+  display: flex;
+  padding: 0 34px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 69px 92px;
+}
+
+.contentBlock10GroupWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contentBlock10InputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBlock10LabelWrapper {
+  margin: 49px 0 60px;
+}
+
+.contentBlock10ProfitWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  margin: 45px 0 77px;
+}
+
+.contentBlock10Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock10Text-grey {
+  color: #6f6f6f;
+}
+
+.contentBlock10 {
+  background: url(../assets/contentBlock10-Background-mobile.svg) right -66px bottom -89px;
+  background-repeat: no-repeat;
+  padding: 27px 15px 40px;
+}
+
+.contentBlock10__box {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+
+.contentBlock10__box__square {
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  width: 85px;
+  height: 85px;
+  background: #0d5ff8;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentBlock10__box__square__number {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contentBlock10__box__square__note {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.contentBlock10__box__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 134px;
+  text-align: center;
+  overflow: visible;
+}
+
+.contentBlock10__checkbox {
+  margin-top: 27px;
+  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  user-select: none;
+}
+
+.contentBlock10__checkbox__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.contentBlock10__checkbox__label {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.contentBlock10__checkbox__label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../assets/checkbox-before.svg);
+}
+
+.contentBlock10__checkbox__input:checked + label::before {
+  background: #085cf7;
+  background: url(../assets/checkbox-after.svg);
+}
+
+.contentBlock10__collage {
+  margin-bottom: 46px;
+}
+
+.contentBlock10__collage__img {
+  max-width: 100%;
+}
+
+.contentBlock10__header {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.contentBlock10__header-conversion {
+  margin-right: 30px;
+  margin-left: 6px;
+}
+
+.contentBlock10__label__btn {
+  border: none;
+  text-align: left;
+  width: 215px;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  background: #0f62fe;
+}
+
+.contentBlock10__label__email {
+  color: #6f6f6f;
+  background: black !important;
+  border: none;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 215px;
+  box-sizing: border-box;
+}
+
+.contentBlock10__label__email::placeholder {
+  color: #6f6f6f;
+  opacity: 1;
+}
+
+.contentBlock10__label__email:-ms-input-placeholder {
+  color: #6f6f6f;
+}
+
+.contentBlock10__label__email::-ms-input-placeholder {
+  color: #6f6f6f;
+}
+
+.contentBlock10__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.contentBlock10__text-conversion {
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.contentBlock10__profit {
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.contentBlock10__profit__number {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #085cf7;
+}
+
+.contentBlock10__profit__note {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  width: 140px;
+}
+
+.contentBlock10__telegram {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.contentBlock10__telegram__block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.contentBlock10__telegram__block__icon {
+  width: 35px;
+  height: 35px;
+}
+
+.contentBlock10__telegram__block__text {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  width: 258px;
+}
+
+.contentBlock10__telegram__btn {
+  border: none;
+  text-align: left;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  width: 310px;
+  background: #1c51ef;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock10BoxWrapper {
+    padding: 0 41px;
+    gap: 43px 112px;
+    max-width: 870px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .contentBlock10InputWrapper {
+    flex-direction: row;
+  }
+
+  .contentBlock10GroupWrapper {
+    gap: 33px;
+  }
+
+  .contentBlock10LabelWrapper {
+    margin: 50px 0 218px;
+  }
+
+  .contentBlock10ProfitWrapper {
+    justify-content: flex-start;
+    gap: 99px;
+  }
+
+  .contentBlock10 {
+    background: url(../assets/contentBlock10-Background-tablet.svg) right -157px
+      bottom -85px;
+    background-repeat: no-repeat;
+    padding: 54px 50px 35px;
+  }
+
+  .contentBlock10__box__square {
+    width: 85px;
+    height: 85px;
+  }
+
+  .contentBlock10__box__text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .contentBlock10__checkbox {
+    margin-top: 27px;
+  }
+
+  .contentBlock10__collage {
+    margin-right: 208px;
+    margin-bottom: 46px;
+  }
+
+  .contentBlock10__header {
+    font-size: 24px;
+    line-height: 31px;
+    margin-right: 43px;
+    margin-bottom: 37px;
+  }
+
+  .contentBlock10__header-conversion {
+    margin-left: 0;
+    margin-right: 88px;
+    margin-bottom: 109px;
+  }
+
+  .contentBlock10__label__email {
+    width: 288px;
+  }
+
+  .contentBlock10__profit__number {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .contentBlock10__profit__note {
+    width: 260px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contentBlock10__telegram {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 540px;
+    background: #0f62fe;
+  }
+
+  .contentBlock10__telegram__block {
+    align-items: center;
+    order: 2;
+  }
+
+  .contentBlock10__telegram__block__text {
+    color: #ffffff;
+  }
+
+  .contentBlock10__telegram__btn {
+    background: none;
+  }
+
+  .contentBlock10__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-right: 80px;
+  }
+
+  .contentBlock10__text-conversion {
+    margin-left: 0;
+    margin-right: 71px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock10BoxWrapper {
+    padding: 0;
+    width: 600px;
+  }
+
+  .contentBlock10ConversionWrapper {
+    display: flex;
+  }
+
+  .contentBlock10GroupWrapper {
+    align-items: center;
+    min-width: 550px;
+  }
+
+  .contentBlock10LabelWrapper {
+    margin: 80px 0 auto;
+    margin-bottom: 154px;
+  }
+
+  .contentBlock10ProfitWrapper {
+    margin: 131px 0 0;
+    gap: 47px;
+  }
+
+  .contentBlock10TaglineWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contentBlock10TagText {
+    padding-top: 48px;
+    width: 608px;
+  }
+
+  .contentBlock10 {
+    background: url(../assets/contentBlock10-Background-desktop.svg) right -216px
+      bottom -867px;
+    background-repeat: no-repeat;
+    padding: 24px 50px 69px;
+  }
+
+  .contentBlock10__collage {
+    margin: 0;
+    order: 2;
+    width: calc(100% - 608px);
+    max-width: 900px;
+  }
+
+  .contentBlock10__collage__img {
+    width: 100%;
+  }
+
+  .contentBlock10__box__text {
+    width: 153px;
+  }
+
+  .contentBlock10__header {
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0;
+    margin-bottom: 67px;
+  }
+
+  .contentBlock10__header-conversion {
+    margin-bottom: 54px;
+    width: 754px;
+  }
+
+  .contentBlock10__profit__note {
+    font-size: 24px;
+    line-height: 31px;
+    width: 308px;
+  }
+
+  .contentBlock10__text {
+    margin: 0px;
+    width: 570px;
+  }
+
+  .contentBlock10__text-conversion {
+    font-size: 24px;
+    line-height: 31px;
+    width: 583px;
+  }
+
+  .contentBlock10__text-conversion p {
+    margin-block-start: 1.65em;
+  }
+}

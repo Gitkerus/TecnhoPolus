@@ -1,0 +1,77 @@
+.contentBlock4 {
+  padding: 39px 14px 31px;
+  background: rgba(236, 242, 252, 0.4);
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.contentBlock4Wrapper {
+  display: flex;
+  gap: 17px;
+  width: fit-content;
+}
+
+.contentBlock4__container {
+  width: 67px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.contentBlock4__container__img {
+  width: 100%;
+  height: 67px;
+}
+
+.contentBlock4__container__text {
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock4 {
+    padding: 42px 49px 23px;
+  }
+
+  .contentBlock4Wrapper {
+    gap: 44px;
+  }
+
+  .contentBlock4__container {
+    width: 88px;
+    gap: 33px;
+  }
+
+  .contentBlock4__container__img {
+    height: 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock4 {
+    padding: 42px 49px 39px;
+  }
+
+  .contentBlock4Wrapper {
+    min-width: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    gap: 64px;
+  }
+
+  .contentBlock4__container {
+    width: 121px;
+  }
+
+  .contentBlock4__container__img {
+    height: 121px;
+  }
+}

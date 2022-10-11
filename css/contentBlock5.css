@@ -1,0 +1,21 @@
+.contentBlock5 {
+  height: 460px;
+  width: 100%;
+  background: #c8c8c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock5 {
+    height: 581px;
+  }
+}

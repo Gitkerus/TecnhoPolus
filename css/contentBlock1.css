@@ -1,0 +1,215 @@
+.contentBlock1 {
+  overflow: hidden;
+  position: relative;
+  padding-top: 48px;
+  padding-bottom: 30px;
+  width: 100%;
+  background: url(../assets/contentBlock1-backgroundBlueTriangle.svg) bottom -130px
+      left,
+    url(../assets/contentBlock1-backgroundGreyTriangle.svg) bottom -125px left -50px;
+  background-repeat: no-repeat;
+}
+
+.contentBlock1Background {
+  display: none;
+}
+
+.contentBlock1BackgroundAnimated {
+  position: absolute;
+  width: 160px;
+  height: 150px;
+  z-index: 0;
+  right: -40px;
+  top: 90px;
+}
+
+.contentBlock1BackgroundDots {
+  display: none;
+}
+
+.contentBlock1BtnsWrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin: 0 auto 0 14px;
+}
+
+.contentBlock1Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+}
+
+.contentBlock1__btn {
+  border: none;
+  text-align: left;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+}
+
+.contentBlock1__btn-info {
+  width: 196px;
+  background: #6f6f6f;
+}
+
+.contentBlock1__btn-signConsult {
+  width: 330px;
+  background: #1c51ef;
+}
+
+.contentBlock1__guarant {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 0 20px 53px;
+}
+
+.contentBlock1__guarant__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  width: 201px;
+  color: #000000;
+}
+
+.contentBlock1__guarant__logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contentBlock1__guarant__logo__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.contentBlock1__presentaion {
+  width: 184px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 56px auto 60px 17px;
+}
+
+.contentBlock1__profiText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin: 0 40px 20px 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlock1 {
+    background: url(../assets/contentBlock1-backgroundDotsTablet.svg) bottom
+        15px right,
+      url(../assets/contentBlock1-backgroundBlueTriangle.svg) bottom left,
+      url(../assets/contentBlock1-backgroundGreyTriangle.svg) bottom left;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+  }
+
+  .contentBlock1Background {
+    display: none;
+  }
+
+  .contentBlock1BackgroundAnimated {
+    width: 333px;
+    height: 316px;
+    right: -20px;
+    top: 200px;
+  }
+
+  .contentBlock1BtnsWrapper {
+    margin: 0 auto 0 32px;
+  }
+  .contentBlock1__guarant {
+    margin: 0 auto 104px 28px;
+    gap: 36px;
+  }
+
+  .contentBlock1__guarant__logo__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contentBlock1__guarant__text {
+    width: 220px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .contentBlock1__presentaion {
+    width: 475px;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 84px auto 40px 32px;
+  }
+
+  .contentBlock1__profiText {
+    width: 420px;
+    margin: 0 295px 40px 32px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock1 {
+    background: none;
+    padding-bottom: 105px;
+  }
+
+  .contentBlock1Background {
+    z-index: -3;
+    display: block;
+    position: absolute;
+    left: -230px;
+    bottom: -203px;
+  }
+
+  .contentBlock1BackgroundAnimated {
+    z-index: -1;
+    height: auto;
+    width: 512px;
+    right: 48px;
+    bottom: 62px;
+  }
+
+  .contentBlock1BackgroundDots {
+    z-index: -2;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .contentBlock1BtnsWrapper {
+    margin: 0 auto 0 52px;
+  }
+  .contentBlock1__guarant {
+    margin: 0 auto 42px 48px;
+    gap: 36px;
+  }
+
+  .contentBlock1__guarant__text {
+    width: 400px;
+  }
+
+  .contentBlock1__presentaion {
+    width: 755px;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 93px auto 50px 52px;
+  }
+
+  .contentBlock1__profiText {
+    margin: 0 295px 40px 52px;
+  }
+}
