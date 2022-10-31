@@ -1,0 +1,169 @@
+.contentBlock19FormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contentBlock19LabelWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentBlock19SubmitWrapper {
+  position: relative;
+}
+
+.contentBlock19Text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contentBlock19Text-white {
+  color: #ffffff;
+}
+
+.contentBlock19QuizWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contentBlock19 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBlock19__faq {
+  padding: 45px 15px 85px;
+  background: #252525;
+}
+
+.contentBlock19__faq__header {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+
+.contentBlock19__faq__question {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.contentBlock19__faq__question__text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contentBlock19__support {
+  padding: 50px 15px;
+}
+
+.contentBlock19__support__header {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  padding-right: 70px;
+}
+
+.contentBlock19__support__input {
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  padding: 12px 16px;
+  outline: none;
+  resize: none;
+}
+.contentBlock19__support__input:focus {
+  border: 2px solid #0f62fe;
+}
+
+.contentBlock19__support__input:invalid {
+  border: 2px solid #da1e28;
+}
+
+.contentBlock19__support__input + label {
+  position: relative;
+}
+
+.contentBlock19__support__input:invalid + label::before {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: -40px;
+  width: 16px;
+  height: 16px;
+  background: url(../assets/input-alert.svg);
+}
+
+.contentBlock19__support__input-comments {
+  box-sizing: border-box;
+  height: 119px;
+}
+
+.contentBlock19__support__submit {
+  padding: 16px 30px;
+  background: #2860f6;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.contentBlock19__support__submitIcon {
+  position: absolute;
+  right: 20px;
+  top: calc((100% - 14px) / 2);
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlock19FormWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 12px 32px;
+  }
+
+  .contentBlock19LabelWrapper {
+    width: calc(50% - 16px);
+  }
+
+  .contentBlock19LabelWrapper-comment {
+    width: 100%;
+  }
+
+  .contentBlock19 {
+    flex-direction: row;
+    gap: 17px;
+  }
+
+  .contentBlock19__faq {
+    padding: 42px 80px 42px 32px;
+    width: 42%;
+    box-sizing: border-box;
+  }
+
+  .contentBlock19__faq__header {
+    width: 376px;
+  }
+
+  .contentBlock19__support {
+    padding: 52px 78px 52px 16px;
+  }
+
+  .contentBlock19__support__header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .contentBlock19__support__input-comments {
+    padding: 11px 16px;
+    height: 46.39px;
+    overflow: hidden;
+  }
+
+  .contentBlock19__support__submit {
+    width: 310px;
+  }
+}
