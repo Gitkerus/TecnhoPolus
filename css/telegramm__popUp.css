@@ -1,0 +1,129 @@
+.telegrammPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  visibility: hidden;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -11;
+}
+
+.telegrammPopUp-open {
+  visibility: visible;
+  z-index: 11;
+}
+
+.telegrammPopUpText {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.telegrammPopUpText-white {
+  color: white;
+}
+
+.telegrammPopUpFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.telegrammPopUpLabelWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.telegrammPopUp__alert {
+  display: none;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+  color: white;
+  background-color: green;
+}
+
+.telegrammPopUpSubmitWrapper {
+  position: relative;
+}
+
+.telegrammPopUp__support {
+  padding: 48px;
+  background: white;
+  width: 100vw;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.telegrammPopUp__support__closeBtn {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.telegrammPopUp__support__header {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 16px;
+  padding-right: 70px;
+}
+
+.telegrammPopUp__support__input {
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  padding: 12px 16px;
+  outline: none;
+  resize: none;
+}
+.telegrammPopUp__support__input:focus {
+  border: 2px solid #0f62fe;
+}
+
+.input-error:invalid {
+  border: 2px solid #da1e28;
+}
+
+.telegrammPopUp__support__input + label {
+  position: relative;
+}
+
+.input-error:invalid + label::before {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: -40px;
+  width: 16px;
+  height: 16px;
+  background: url(../assets/input-alert.svg);
+}
+
+.telegrammPopUp__support__input-comments {
+  box-sizing: border-box;
+  height: 119px;
+}
+
+.telegrammPopUp__support__submit {
+  padding: 16px 30px;
+  background: #2860f6;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.telegrammPopUp__support__submitIcon {
+  position: absolute;
+  right: 20px;
+  top: calc((100% - 14px) / 2);
+}
+
+@media screen and (min-width: 768px) {
+  .telegrammPopUp__support {
+    width: 420px;
+  }
+}

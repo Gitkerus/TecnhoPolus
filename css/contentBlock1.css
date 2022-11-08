@@ -42,7 +42,7 @@
 
 .contentBlock1__btn {
   border: none;
-  text-align: left;
+  text-align: center;
   padding: 15px 16px;
   font-weight: 400;
   font-size: 14px;
@@ -52,7 +52,7 @@
 }
 
 .contentBlock1__btn-info {
-  width: 196px;
+  width: 330px;
   background: #6f6f6f;
 }
 

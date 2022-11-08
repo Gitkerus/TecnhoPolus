@@ -1,0 +1,80 @@
+.contentBlockPresidentText {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contentBlockPresident {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBlockPresident__photo {
+  display: flex;
+  justify-content: center;
+  height: 322px;
+  overflow: hidden;
+}
+
+.contentBlockPresident__quot {
+  padding: 48px 20px 58px;
+}
+
+.contentBlockPresident__quot__author {
+  text-align: end;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .contentBlockPresident {
+    flex-direction: row;
+  }
+
+  .contentBlockPresident__quot {
+    padding: 41px 24px 0 30px;
+    order: 2;
+  }
+
+  .contentBlockPresident__quot__author {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contentBlockPresident__quot__author,
+  .contentBlockPresident__quot__text {
+    width: 258px;
+  }
+
+  .contentBlockPresident__photo {
+    height: 347px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentBlockPresident__photo {
+    height: 497px;
+  }
+
+  .contentBlockPresident__quot {
+    padding: 128px 65px 0 65px;
+  }
+
+  .contentBlockPresident__quot__author {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .contentBlockPresident__quot__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contentBlockPresident__quot__author,
+  .contentBlockPresident__quot__text {
+    width: 421px;
+  }
+}

@@ -3,6 +3,7 @@
 @import url(./css/fonts.css);
 @import url(./css/contentBlock1.css);
 @import url(./css/contentBlock2.css);
+@import url(./css/contentBlockPresident.css);
 @import url(./css/contentBlock3.css);
 @import url(./css/contentBlock4.css);
 @import url(./css/contentBlock5.css);
@@ -19,6 +20,7 @@
 @import url(./css/contentBlock17.css);
 @import url(./css/contentBlock18.css);
 @import url(./css/contentBlock19.css);
+@import url(./css/telegramm__popUp.css);
 
 .wrapper {
   min-width: 360px;

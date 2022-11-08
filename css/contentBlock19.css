@@ -35,6 +35,15 @@
   flex-direction: column;
 }
 
+.contentBlock19__alert {
+  display: none;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+  color: white;
+  background-color: green;
+}
+
 .contentBlock19__faq {
   padding: 45px 15px 85px;
   background: #252525;
@@ -80,7 +89,7 @@
   border: 2px solid #0f62fe;
 }
 
-.contentBlock19__support__input:invalid {
+.input-error:invalid {
   border: 2px solid #da1e28;
 }
 
@@ -88,7 +97,7 @@
   position: relative;
 }
 
-.contentBlock19__support__input:invalid + label::before {
+.input-error:invalid + label::before {
   content: "";
   position: absolute;
   right: 16px;

@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Orbitron&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      defer
+      type="application/javascript"
+      src="//panel.quizgo.ru/common?q=63626"
+    ></script>
   </head>
   <body>
     <div class="wrapper">
@@ -63,7 +68,7 @@
                 alt="phone-green"
               />
             </a>
-            <span class="header__phoneNumber">8 (917)817-53-32</span>
+            <span class="header__phoneNumber">8 (905)552-66-68</span>
           </div>
         </div>
         <div class="headerWrapperRight">
@@ -125,7 +130,7 @@
         </div>
         <div class="contentBlock1BtnsWrapper">
           <button
-            class="contentBlock1Text contentBlock1__btn contentBlock1__btn-signConsult"
+            class="contentBlock1Text contentBlock1__btn contentBlock1__btn-signConsult popUpBtn"
           >
             <span>Записаться на бесплатную консультацию</span>
           </button>
@@ -143,15 +148,32 @@
           с помощью собственного высоконверсионного интернет магазина.
         </div>
         <button
-          class="contentBlock2Text contentBlock2__btn contentBlock2__btn-signConsult"
+          class="contentBlock2Text contentBlock2__btn contentBlock2__btn-signConsult popUpBtn"
         >
           Записаться на бесплатную консульатцию
         </button>
       </div>
+      <div class="contentBlockPresident">
+        <div class="contentBlockPresident__quot contentBlockPresidentText">
+          <p class="contentBlockPresident__quot__text">
+            «Это [электронная коммерция] один из самых быстрорастущих сегментов
+            современной экономики, который во много определяет развитие
+            эффективного и прибыльного бизнеса, открывает перед людьми новые
+            возможности быстро и удобно приобретать необходимые товары и
+            услуги.»
+          </p>
+          <p class="contentBlockPresident__quot__author">
+            Владимир Владимирович Путин, президент Российской Федерации
+          </p>
+        </div>
+        <div class="contentBlockPresident__photo">
+          <img src="./assets/president-img.png" alt="" />
+        </div>
+      </div>
       <div class="contentBlock3">
         <span class="contentBlock3__header contentBlock3Text">Для кого:</span>
         <div class="contentBlock3BoxWrapper">
-          <div class="contentBlock3__box">
+          <div class="contentBlock3__box contentBlock3__box-pink">
             <div class="contentBlock3__box__icon">
               <img src="./assets/store-icon.svg" alt="store-icon" />
             </div>
@@ -166,7 +188,7 @@
               решение для безболезненного переезда с Wildberies/Ozon.
             </div>
           </div>
-          <div class="contentBlock3__box">
+          <div class="contentBlock3__box contentBlock3__box-green">
             <div class="contentBlock3__box__icon">
               <img src="./assets/bug-icon.svg" alt="bug-icon" />
             </div>
@@ -183,7 +205,7 @@
               <a href="#">Хотите знать почему?</a>
             </div>
           </div>
-          <div class="contentBlock3__box">
+          <div class="contentBlock3__box contentBlock3__box-blue">
             <div class="contentBlock3__box__icon">
               <img src="./assets/instagram-icon.svg" alt="instagram-icon" />
             </div>
@@ -196,7 +218,7 @@
               эффективно лить трафик с ваших соц сетей.
             </div>
           </div>
-          <div class="contentBlock3__box">
+          <div class="contentBlock3__box contentBlock3__box-grey">
             <div class="contentBlock3__box__icon">
               <img src="./assets/map-icon.svg" alt="map-icon" />
             </div>
@@ -216,7 +238,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/car-img.png"
+              src="./assets/car-img.svg"
               alt="car-img"
             />
             <span class="contentBlock4__container__text"> Авто </span>
@@ -224,7 +246,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/clothes-img.png"
+              src="./assets/clothes-img.svg"
               alt="clothes-img"
             />
             <span class="contentBlock4__container__text">Одежда</span>
@@ -232,7 +254,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/furniture-img.png"
+              src="./assets/furniture-img.svg"
               alt="furniture-img"
             />
             <span class="contentBlock4__container__text"> Мебель </span>
@@ -240,7 +262,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/electronic-img.png"
+              src="./assets/electronic-img.svg"
               alt="electronic-img"
             />
             <span class="contentBlock4__container__text"> Электроника </span>
@@ -248,7 +270,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/beauty-img.png"
+              src="./assets/beauty-img.svg"
               alt="beauty-img"
             />
             <span class="contentBlock4__container__text"> Бьюти</span>
@@ -256,7 +278,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/agriculture-img.png"
+              src="./assets/agriculture-img.svg"
               alt="agriculture-img"
             />
             <span class="contentBlock4__container__text">
@@ -266,7 +288,7 @@
           <div class="contentBlock4__container">
             <img
               class="contentBlock4__container__img"
-              src="./assets/production-img.png"
+              src="./assets/production-img.svg"
               alt="production-img"
             />
             <span class="contentBlock4__container__text"> Производство </span>
@@ -282,7 +304,12 @@
         </div>
       </div>
       <div class="contentBlock5">
-        <span> Место для квиза </span>
+        <button
+          class="contentBlock5__btn contentBlock5Text"
+          onclick="QuizGoWidget63626.show()"
+        >
+          Пройти опрос
+        </button>
       </div>
       <div class="contentBlock6">
         <div class="contentBlock6__header contentBlock6Text">
@@ -374,7 +401,9 @@
                     цифр.
                   </div>
                 </div>
-                <button class="contentBlock6__signBtn contentBlock6Text">
+                <button
+                  class="contentBlock6__signBtn contentBlock6Text popUpBtn"
+                >
                   Записаться на бесплатную консульатцию
                 </button>
               </div>
@@ -467,7 +496,7 @@
           <div class="contentBlock7BoxWrapper">
             <div class="contentBlock7__box">
               <div class="contentBlock7__box__icon">
-                <img src="" alt="" />
+                <img src="./assets/api-icon.svg" alt="" />
               </div>
               <span class="contentBlock7__box__header contentBlock7Text"
                 >Собираем магазин <br />
@@ -481,7 +510,7 @@
             </div>
             <div class="contentBlock7__box">
               <div class="contentBlock7__box__icon">
-                <img src="" alt="" />
+                <img src="./assets/textLink-icon.svg" alt="" />
               </div>
               <span class="contentBlock7__box__header contentBlock7Text"
                 >Разворачиваем магазин <br />
@@ -494,7 +523,7 @@
             </div>
             <div class="contentBlock7__box">
               <div class="contentBlock7__box__icon">
-                <img src="" alt="" />
+                <img src="./assets/paint-icon.svg" alt="" />
               </div>
               <span class="contentBlock7__box__header contentBlock7Text"
                 >Предоставляем обучение</span
@@ -506,7 +535,7 @@
             </div>
             <div class="contentBlock7__box">
               <div class="contentBlock7__box__icon">
-                <img src="" alt="" />
+                <img src="/assets/carbon-icon.svg" alt="" />
               </div>
               <span class="contentBlock7__box__header contentBlock6Text"
                 >Заполняем магазин</span
@@ -566,7 +595,7 @@
               оптимизацией для увеличения конверсии и трафика.
             </div>
             <button
-              class="contentBlock7__postProductionBox__signBtn contentBlock7Text"
+              class="contentBlock7__postProductionBox__signBtn contentBlock7Text popUpBtn"
             >
               Записаться на бесплатную консульатцию
             </button>
@@ -583,7 +612,6 @@
               -для поисковых систем ( СЕО ), чтобы увеличить трафик.
             </div>
           </div>
-          <!-- Кусок контента недорисован -->
         </div>
       </div>
       <div class="contentBlock8">
@@ -828,7 +856,7 @@
               определенном этапе вам будет необходим интернет магазин.
             </p>
           </div>
-          <button class="contentBlock9__signBtn contentBlock9Text">
+          <button class="contentBlock9__signBtn contentBlock9Text popUpBtn">
             Записаться на бесплатную консульатцию
           </button>
         </div>
@@ -1000,7 +1028,7 @@
           </div>
         </div>
       </div>
-      <!-- Место под блок демо 
+      <!--
       <div class="contentBlock11">Демо магазина</div>
       -->
       <div class="contentBlock12">
@@ -1292,7 +1320,7 @@
           с помощью собственного высоконверсионного интернет магазина.
         </div>
         <button
-          class="contentBlock2Text contentBlock2__btn contentBlock2__btn-signConsult"
+          class="contentBlock2Text contentBlock2__btn contentBlock2__btn-signConsult popUpBtn"
         >
           Записаться на бесплатную консульатцию
         </button>
@@ -1309,14 +1337,14 @@
               />
               <div class="contentBlock18BoxTextWrapper">
                 <span class="contentBlock18__box__price contentBlock18Text"
-                  >от 15 000 ₽</span
+                  >от 149 000 ₽</span
                 >
                 <span class="contentBlock18__box__header contentBlock18Text"
-                  >Настройка и ведение контекстной рекламы</span
+                  >Базовый интернет-магазин</span
                 >
                 <div class="contentBlock18__box__text contentBlock18Text">
-                  Внешние и внутренние работы, направленные на улучшение
-                  восприятия сайта поисковыми системами
+                  e-Commerce система с базовым функционалом. Решение для малых
+                  магазинов
                 </div>
               </div>
             </div>
@@ -1336,13 +1364,14 @@
               />
               <div class="contentBlock18BoxTextWrapper">
                 <span class="contentBlock18__box__price contentBlock18Text"
-                  >от 25 000 ₽</span
+                  >от 249 000 ₽</span
                 >
                 <span class="contentBlock18__box__header contentBlock18Text"
-                  >Реклама + правки</span
+                  >eCommerce система</span
                 >
                 <div class="contentBlock18__box__text contentBlock18Text">
-                  Работы на улучшение конверсии сайта и пользовательского опыта
+                  Реактивный интернет-магазин на Saleor с полным функционалом и
+                  интеграциями. Полное решение для электронной коммерции.
                 </div>
               </div>
             </div>
@@ -1362,14 +1391,14 @@
               />
               <div class="contentBlock18BoxTextWrapper">
                 <span class="contentBlock18__box__price contentBlock18Text"
-                  >от 55 000 ₽</span
+                  >от 599 000 ₽</span
                 >
                 <span class="contentBlock18__box__header contentBlock18Text"
-                  >Маркетинговая реструктуризация</span
+                  >Маркетплейс</span
                 >
                 <div class="contentBlock18__box__text contentBlock18Text">
-                  Создание или полная переработка сайта специально под
-                  таргетированную рекламу
+                  e-Comnerce система для торговли вместе с другими продавцами.
+                  Решение для торговых площадок
                 </div>
               </div>
             </div>
@@ -1469,7 +1498,7 @@
             </div>
           </div>
         </div>
-        <form class="contentBlock19__support">
+        <form class="contentBlock19__support" id="tg__request">
           <div class="contentBlock19__support__header contentBlock19Text">
             Мы решим все Ваши вопросы с IT
           </div>
@@ -1477,9 +1506,10 @@
             <div class="contentBlock19LabelWrapper contentBlock19Text">
               Имя
               <input
-                class="contentBlock19__support__input"
+                class="contentBlock19__support__input requiredInput"
                 id="contentBlock19__support__name"
                 type="text"
+                name="name"
                 placeholder="Имя"
                 required
               />
@@ -1488,9 +1518,10 @@
             <div class="contentBlock19LabelWrapper contentBlock19Text">
               Телефон
               <input
-                class="contentBlock19__support__input"
+                class="contentBlock19__support__input requiredInput"
                 id="contentBlock19__support__phone"
                 type="text"
+                name="phone"
                 placeholder="Телефон"
                 required
               />
@@ -1504,6 +1535,7 @@
               <textarea
                 class="contentBlock19__support__input contentBlock19__support__input-comments"
                 placeholder="Комментарий"
+                name="comment"
               ></textarea>
             </div>
             <div class="contentBlock19SubmitWrapper">
@@ -1519,6 +1551,84 @@
               />
             </div>
           </div>
+          <div
+            id="request__send"
+            clas
+            class="contentBlock19__alert contentBlock19Text"
+            role="alert"
+          >
+            Заявка отправлена!
+          </div>
+        </form>
+      </div>
+      <div class="telegrammPopUp" id="telegrammPopUp">
+        <form class="telegrammPopUp__support" id="tg__request__popUp">
+          <div
+            class="telegrammPopUp__support__closeBtn"
+            id="telegrammPopUp__closeBtn"
+          >
+            <img src="./assets/cross_button.svg" alt="cross_button" />
+          </div>
+          <div class="telegrammPopUp__support__header telegrammPopUpText">
+            Мы решим все Ваши вопросы с IT
+          </div>
+          <div class="telegrammPopUpFormWrapper">
+            <div class="telegrammPopUpLabelWrapper telegrammPopUpText">
+              Имя
+              <input
+                class="telegrammPopUp__support__input requiredInput"
+                id="telegrammPopUp__support__name"
+                type="text"
+                name="name"
+                placeholder="Имя"
+                required
+              />
+              <label for="telegrammPopUp__support__name"> </label>
+            </div>
+            <div class="telegrammPopUpLabelWrapper telegrammPopUpText">
+              Телефон
+              <input
+                class="telegrammPopUp__support__input requiredInput"
+                id="telegrammPopUp__support__phone"
+                type="text"
+                name="phone"
+                placeholder="Телефон"
+                required
+              />
+              <label for="telegrammPopUp__support__phone"> </label>
+            </div>
+            <div
+              class="telegrammPopUpLabelWrapper telegrammPopUpLabelWrapper-comment telegrammPopUpText"
+              for="telegrammPopUp__support__message"
+            >
+              Комментарий
+              <textarea
+                class="telegrammPopUp__support__input ctelegrammPopUp__support__input-comments"
+                placeholder="Комментарий"
+                name="comment"
+              ></textarea>
+            </div>
+            <div class="telegrammPopUpSubmitWrapper">
+              <input
+                class="telegrammPopUp__support__submit telegrammPopUpText telegrammPopUpText-white"
+                type="submit"
+                value="Отправить заявку"
+              />
+              <img
+                class="telegrammPopUp__support__submitIcon"
+                src="./assets/contentBlock19__submitIcon.svg"
+                alt="arrot-right-white"
+              />
+            </div>
+          </div>
+          <div
+            id="request__send__popUp"
+            clas
+            class="telegrammPopUp__alert telegrammPopUpText"
+            role="alert"
+          >
+            Заявка отправлена!
+          </div>
         </form>
       </div>
     </div>
@@ -1528,6 +1638,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

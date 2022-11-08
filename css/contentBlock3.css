@@ -1,6 +1,6 @@
 .contentBlock3 {
   box-sizing: border-box;
-  padding: 35px 9px 38px 16px;
+  padding: 35px 16px 38px;
 }
 
 .contentBlock3BoxWrapper {
@@ -20,7 +20,22 @@
   flex-direction: column;
   gap: 22px;
   padding: 31px 25px 38px 22px;
+}
+
+.contentBlock3__box-blue {
+  background: #e5eaff;
+}
+
+.contentBlock3__box-green {
+  background: #edfffc;
+}
+
+.contentBlock3__box-grey {
   background: #f3f4f8;
+}
+
+.contentBlock3__box-pink {
+  background: #ffe8fe;
 }
 
 .contentBlock3__box__icon {
