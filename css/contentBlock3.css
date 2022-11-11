@@ -20,7 +20,6 @@
   flex-direction: column;
   gap: 22px;
   padding: 31px 25px 38px 22px;
-  background: #f3f4f8;
 }
 
 .contentBlock3__box-blue {
@@ -35,8 +34,8 @@
   background: #f3f4f8;
 }
 
-.contentBlock3__box-pink {
-  background: #ffe8fe;
+.contentBlock3__box-orange {
+  background: #ffe5b4;
 }
 
 .contentBlock3__box__icon {

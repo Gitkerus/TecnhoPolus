@@ -25,3 +25,8 @@
 .wrapper {
   min-width: 360px;
 }
+
+/* временно для цвета  */
+.azure {
+  background: #30d5c8;
+}
