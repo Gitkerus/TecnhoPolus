@@ -23,7 +23,7 @@
       <header class="header">
         <div class="headerWrapperLeft">
           <div class="headerMenuWrapper">
-            <button class="header__btnBurger">
+            <button class="header__btnBurger" id="header__btnBurger">
               <img
                 class="header__btnBurger__img"
                 src="./assets/menu-btn.svg"
@@ -32,18 +32,28 @@
             </button>
             <a class="header__name" href="#">Технополюс</a>
             <div class="header__vertLine"></div>
-            <div class="headerLinksWrapper">
-              <a class="header__link header__link-sidebar" href="#"
-                >Технология</a
+            <div class="headerLinksWrapper" id="headerLinksWrapper">
+              <a class="header__link header__link-sidebar" href="#how_we_work"
+                >Как мы работаем</a
               >
-              <a class="header__link header__link-sidebar" href="#"
-                >Конверсионные элементы</a
+              <a class="header__link header__link-sidebar" href="#benefits"
+                >Преимущества</a
               >
-              <a class="header__link header__link-sidebar" href="#"
-                >Архитектура ИМ</a
+              <a class="header__link header__link-sidebar" href="#conversion"
+                >Конверсия</a
               >
-              <a class="header__link header__link-sidebar" href="#">Цены</a>
-              <a class="header__link header__link-sidebar" href="#">Контакты</a>
+              <a class="header__link header__link-sidebar" href="#technology"
+                >Технологии</a
+              >
+              <a class="header__link header__link-sidebar" href="#integration"
+                >Интеграции</a
+              >
+              <a class="header__link header__link-sidebar" href="#prices"
+                >Цены</a
+              >
+              <a class="header__link header__link-sidebar" href="#contacts"
+                >Контакты</a
+              >
             </div>
           </div>
           <div class="headerContactsWrapper">
@@ -319,7 +329,8 @@
           Пройти опрос
         </button>
       </div>
-      <div class="contentBlock6">
+      <a name="how_we_work"></a>
+      <div class="contentBlock6" id="how_we_work">
         <div class="contentBlock6__header contentBlock6Text">
           13 шагов к успеху вашего бизнеса
         </div>
@@ -622,7 +633,8 @@
           </div>
         </div>
       </div>
-      <div class="contentBlock8">
+      <a name="benefits"></a>
+      <div class="contentBlock8" id="benefits">
         <div class="contentBlock8__header contentBlock8Text">
           Маркетплейс vs Интернет магазин
         </div>
@@ -924,8 +936,10 @@
             </div>
           </div>
         </div>
+        <a name="conversion"></a>
         <div
           class="contentBlock10__header contentBlock10__header-conversion contentBlock10Text"
+          id="conversion"
         >
           Увеличиваем конверсию интернет магазина с помощью внедрения
           конверсионных элементов
@@ -1039,7 +1053,8 @@
       <!--
       <div class="contentBlock11">Демо магазина</div>
       -->
-      <div class="contentBlock12">
+      <a name="technology"></a>
+      <div class="contentBlock12" id="technology">
         <div
           class="contentBlock12__header contentBlock12__header-fixed contentBlock12Text"
         >
@@ -1088,7 +1103,8 @@
           </div>
         </div>
       </div>
-      <div class="contentBlock13">
+      <a name="integration"></a>
+      <div class="contentBlock13" id="integration">
         <div class="contentBlock13CollageWrapper">
           <img
             class="contentBlock13__collage"
@@ -1333,7 +1349,8 @@
           Записаться на бесплатную консульатцию
         </button>
       </div>
-      <div class="contentBlock18">
+      <a name="prices"></a>
+      <div class="contentBlock18" id="prices">
         <div class="contentBlock18__header contentBlock18Text">Тарифы</div>
         <div class="contentBlock18BoxWrapper">
           <div class="contentBlock18__box">
@@ -1506,8 +1523,12 @@
             </div>
           </div>
         </div>
+        <a name="contacts"></a>
         <form class="contentBlock19__support" id="tg__request">
-          <div class="contentBlock19__support__header contentBlock19Text">
+          <div
+            class="contentBlock19__support__header contentBlock19Text"
+            id="contacts"
+          >
             Мы решим все Ваши вопросы с IT
           </div>
           <div class="contentBlock19FormWrapper">
@@ -1639,6 +1660,18 @@
           </div>
         </form>
       </div>
+      <footer class="footer">
+        <p>
+            &#169 Технополюс 2022 
+        </p>
+        <p>
+          Россия, Тольятти Южное шоссе 24Б
+        </p>
+        <p>
+          manager@ux-go.ru
+          +8(905)552-66-68
+        </p>
+      </footer>
     </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"

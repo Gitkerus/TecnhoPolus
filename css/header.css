@@ -14,16 +14,34 @@
 }
 
 .headerLinksWrapper {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top: 1px white solid;
+  width: 100vw;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 16px;
+  background: black;
+}
+
+.headerLinksWrapper-open {
+  padding: 16px;
+  height: auto;
 }
 
 .headerMenuWrapper {
-  margin-left: 6px;
+  margin-left: 16px;
   display: flex;
   align-items: center;
 }
 
 .headerWrapperLeft {
+  position: relative;
   background: black;
   display: flex;
   justify-content: space-between;
@@ -36,6 +54,8 @@
   align-items: center;
   background: #1c51ef;
   width: 60px;
+  outline: 1px solid white;
+  outline-offset: -3px;
 }
 
 .header__btnBurger {
@@ -68,7 +88,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 18px;
   color: #b4b4b4;
   margin-bottom: 2px;
 }
@@ -82,7 +102,7 @@
   line-height: 18px;
   letter-spacing: 0.1px;
   color: #ffffff;
-  margin: 0 5px 2px 11px;
+  margin: 0 5px 2px 16px;
 }
 
 .header__phone {
@@ -100,6 +120,7 @@
 }
 
 .header__vertLine {
+  display: none;
   width: 1px;
   height: 24px;
   background: #3d3d3d;
@@ -112,6 +133,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .headerLinksWrapper {
+    width: 157px;
+  }
+
   .headerWrapperRight {
     width: 280px;
   }
@@ -156,27 +181,42 @@
     color: #ffffff;
   }
 
+  .header__vertLine {
+    display: block;
+    margin: 0 16px;
+  }
+
   .header__whatsapp {
     margin: 0 12px 0 20px;
   }
 }
 
 @media screen and (min-width: 1400px) {
+  .headerLinksWrapper-open {
+    padding: 0;
+    height: 0;
+  }
+
   .header__btnBurger {
     display: none;
   }
 
   .header__name {
     margin-left: 40px;
-    margin-right: 51px;
-  }
-
-  .header__vertLine {
-    display: none;
+    margin-right: 16px;
   }
 
   .headerLinksWrapper {
     display: flex;
     gap: 35px;
+    margin-left: 16px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    flex-direction: row;
+    height: auto;
+    border: none;
   }
 }

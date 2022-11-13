@@ -21,12 +21,12 @@
 @import url(./css/contentBlock18.css);
 @import url(./css/contentBlock19.css);
 @import url(./css/telegramm__popUp.css);
+@import url(./css/footer.css);
+
+html {
+  scroll-behavior: smooth;
+}
 
 .wrapper {
   min-width: 360px;
-}
-
-/* временно для цвета  */
-.azure {
-  background: #30d5c8;
 }
