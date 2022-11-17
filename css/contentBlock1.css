@@ -90,8 +90,8 @@
 }
 
 .contentBlock1__presentaion {
-  width: 184px;
-  font-weight: 400;
+  width: 200px;
+  font-weight: 600;
   font-size: 18px;
   line-height: 21px;
   margin: 56px auto 60px 17px;
@@ -146,7 +146,7 @@
   }
 
   .contentBlock1__presentaion {
-    width: 475px;
+    width: 310px;
     font-size: 28px;
     line-height: 36px;
     margin: 84px auto 40px 32px;
@@ -203,7 +203,7 @@
   }
 
   .contentBlock1__presentaion {
-    width: 755px;
+    width: 500px;
     font-size: 46px;
     line-height: 58px;
     margin: 93px auto 50px 52px;

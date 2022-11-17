@@ -41,7 +41,7 @@
   margin-top: 5px;
   padding: 5px;
   color: white;
-  background-color: green;
+  background-color: #198038;
 }
 
 .contentBlock19__faq {
@@ -118,6 +118,11 @@
   border: none;
   width: 100%;
   text-align: left;
+}
+
+.contentBlock19__support__submit:hover {
+  cursor: pointer;
+  background: #0353e9;
 }
 
 .contentBlock19__support__submitIcon {

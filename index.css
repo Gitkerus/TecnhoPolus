@@ -30,3 +30,8 @@ html {
 .wrapper {
   min-width: 360px;
 }
+
+.popUpBtn:hover {
+  cursor: pointer;
+  background: #0043ce;
+}

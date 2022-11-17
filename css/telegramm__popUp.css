@@ -44,7 +44,7 @@
   margin-top: 5px;
   padding: 5px;
   color: white;
-  background-color: green;
+  background-color: #198038;
 }
 
 .telegrammPopUpSubmitWrapper {
@@ -65,6 +65,10 @@
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.telegrammPopUp__support__closeBtn:hover {
+  cursor: pointer;
 }
 
 .telegrammPopUp__support__header {
@@ -114,6 +118,11 @@
   border: none;
   width: 100%;
   text-align: left;
+}
+
+.telegrammPopUp__support__submit:hover {
+  cursor: pointer;
+  background: #0353e9;
 }
 
 .telegrammPopUp__support__submitIcon {

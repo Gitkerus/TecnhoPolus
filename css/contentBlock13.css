@@ -43,6 +43,10 @@
   gap: 8px;
 }
 
+.contentBlock13__checkbox__label:hover {
+  cursor: pointer;
+}
+
 .contentBlock13__checkbox__label::before {
   content: "";
   display: inline-block;
@@ -80,6 +84,10 @@
   letter-spacing: 0.16px;
   color: #ffffff;
   background: #0f62fe;
+}
+
+.contentBlock13__label__btn:hover {
+  cursor: pointer;
 }
 
 .contentBlock13__label__email {
