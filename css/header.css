@@ -25,11 +25,12 @@
   display: flex;
   flex-direction: column;
   background: black;
-  transition: all 0.3s linear;
+  transition: all 0.3s ease;
 }
 
 .headerLinksWrapper-open {
-  height: auto;
+  /* height: auto; */
+  height: 351px;
 }
 
 .headerMenuWrapper {
@@ -60,7 +61,6 @@
   padding: 0;
   height: 18px;
   width: 21px;
-  transition: all 0.3s linear;
 }
 
 .header__btnBurger:hover {
@@ -91,6 +91,7 @@
   line-height: 18px;
   color: #b4b4b4;
   padding: 16px;
+  transition: all 0.3s linear;
 }
 
 .header__link:hover {
